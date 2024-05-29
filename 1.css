@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient( #001f3f, #0F4D92); */
+    background-color: white;
+            }
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+            }
+
+/* Center the top stop button */
+.top-button {
+    align-self: center;
+    margin-bottom: 10px;
+            }
+
+/* Center the bottom stop button */
+.bottom-button  {
+    align-self: center;
+    margin-top: 10px;
+                }
+
+#soundboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+            }
+
+.sound-column   {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+                }
+
+.sound-button   {
+    width: 150px;
+    height: 35px;
+    /* padding: 10px 10px; */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 10px;
+    
+                }
+
+.sound-button:hover {
+    background-color: #b60070;
+                    }
+
+.red-button {
+    width: 150px;
+    height: 35px;
+    /* padding: 10px 10px; */
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 10px;
+            }
+
+.blue-buttons   {
+    padding: 8px 50px;
+    background-color: #0f0350;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 15px;
+                }
+
+.dnc-button {
+    width: 150px;
+    height: 35px;
+    /* padding: 10px 10px; */
+    background-color: #d60404;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 10px;
+            }
+
+.box {
+    border: 2px solid #b6b3b3;
+    box-shadow: 3px 5px #b6b3b3;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(#FF69B4, #FFB6C1); */
+    background-color: #f3f0f0;
+    }
